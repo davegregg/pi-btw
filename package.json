@@ -20,10 +20,20 @@
     "agent",
     "tui"
   ],
+  "files": [
+    "extensions",
+    "docs",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "pi": {
     "extensions": [
       "./extensions"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/dbachelder/pi-btw/main/docs/btw-overlay.png"
   },
   "peerDependencies": {
     "@mariozechner/pi-ai": "*",

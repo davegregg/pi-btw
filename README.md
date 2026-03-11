@@ -4,6 +4,8 @@ A small [pi](https://github.com/badlogic/pi-mono) extension that adds a `/btw` c
 
 `/btw` runs immediately, even while the main agent is still busy.
 
+![BTW overlay example](docs/btw-overlay.png)
+
 ## What it does
 
 - asks a one-off side question using the current session context
@@ -15,6 +17,12 @@ A small [pi](https://github.com/badlogic/pi-mono) extension that adds a `/btw` c
 Saved BTW notes are visible in the session transcript, but excluded from future LLM context.
 
 ## Install
+
+### From npm (after publish)
+
+```bash
+pi install npm:pi-btw
+```
 
 ### From git
 
