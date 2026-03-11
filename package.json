@@ -1,0 +1,33 @@
+{
+  "name": "pi-btw",
+  "version": "0.1.0",
+  "description": "A pi extension that answers side questions immediately with /btw",
+  "type": "module",
+  "license": "MIT",
+  "author": "Dan Bachelder",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbachelder/pi-btw.git"
+  },
+  "homepage": "https://github.com/dbachelder/pi-btw#readme",
+  "bugs": {
+    "url": "https://github.com/dbachelder/pi-btw/issues"
+  },
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "pi-coding-agent",
+    "agent",
+    "tui"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions"
+    ]
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-ai": "*",
+    "@mariozechner/pi-coding-agent": "*",
+    "@mariozechner/pi-tui": "*"
+  }
+}
