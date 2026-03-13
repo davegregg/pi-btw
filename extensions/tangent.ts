@@ -301,6 +301,10 @@ export default function (pi: ExtensionAPI) {
     resetThread(ctx);
   });
 
+  pi.on("session_tree", async (_event, ctx) => {
+    resetThread(ctx);
+  });
+
   pi.on("session_shutdown", async () => {
     abortActiveSlots();
   });
