@@ -90,6 +90,7 @@ Use this when the thread is long and only the distilled outcome should go back i
 ## Recommendation rules
 
 - Prefer `/btw` over normal chat when the user explicitly wants a side conversation.
+- Prefer `/tangent` over `/btw` when the user wants the side conversation to ignore the current session context entirely.
 - Prefer `/btw:summarize` over `/btw:inject` for long exploratory threads.
 - Prefer `/btw:inject` when precise wording, detailed tradeoffs, or a full plan matters.
 - Suggest `/btw:new` before starting a totally unrelated side topic.

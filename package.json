@@ -1,7 +1,7 @@
 {
   "name": "pi-btw",
   "version": "0.1.0",
-  "description": "A pi extension for parallel side conversations with /btw",
+  "description": "A pi extension for parallel side conversations with /btw and /tangent",
   "type": "module",
   "license": "MIT",
   "author": "Dan Bachelder",
@@ -22,6 +22,7 @@
   ],
   "files": [
     "extensions",
+    "skills",
     "docs",
     "README.md",
     "LICENSE"
